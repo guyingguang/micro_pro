@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/daily/daily",
+    "pages/translate/translate",
+    "pages/login/login",
+    "pages/video/video",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "每日一句",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#000",
+    "position":"bottom",
+    "selectedColor":"#f8a41f",
+    "borderStyle":"#000",
+    "list": [{
+      "pagePath": "pages/daily/daily",
+      "text": "每日一句",
+      "iconPath": "images/picture.png",
+      "selectedIconPath": "images/picture.png"
+    },{
+      "pagePath": "pages/translate/translate",
+      "text": "词典",
+      "iconPath": "images/dictionary.png",
+      "selectedIconPath": "images/dictionary.png"
+    }]
+  }
+}

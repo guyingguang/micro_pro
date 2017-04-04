@@ -1,0 +1,39 @@
+<view class="transPage">
+    <view class="sectionText">
+        <input text="text" placeholder="在此输入要翻译的文本" class="input-text" bindinput="translateText"/>
+        <button type="primary" class="btn-S" plain="true" size="mini" bindtap="translate">查询            </button>
+    </view>
+    <scroll-view class="history" wx:if="{{historyShow}}" scroll-y="true">
+        <view class="historyList">
+            <view class="historyDetails">
+                <text class="heistoryEng">hello</text>
+                <text class="heistoryChn">n. 表示问候， 惊奇或唤起注意时的用语</text>
+            </view>
+        </view>
+        <view class="historyCancel">
+            <button type="default" class="btn-S" plain="true" size="mini" bindtap="closeHistory">关闭</button>
+            <button type="warn" class="btn-S" plain="true" size="mini">清空</button>
+        </view>
+    </scroll-view>
+    <view class="descV" wx:if="{{columnShow.show}}">
+        <view class="section_basic" wx:if="{{columnShow.phoneticShow}}">
+            <view class="phonetic">{{translations.basic.phonetic}}</view>
+        </view>
+        <view class="section_basic" wx:if="{{columnShow.explainsShow}}">
+            <view class="explains" wx:for="{{translations.basic.explains}}" wx:key="key">{{item}}                </view>
+        </view>
+        <view class="section_basic" wx:if="{{columnShow.translationShow}}">
+            <view class="phonetic" >{{translations.translation}}</view>
+        </view>
+        <view class="section_basic" wx:if="{{columnShow.webShow}}">
+            <view class="phonetic" style="color:#cecece;">网络</view>
+            <view class="web_explains" wx:for="{{translations.web}}" wx:key="key">
+                <view>{{item.key}}</view>
+                <view class="web_content_value">{{item.value}}</view>
+            </view>
+        </view>
+    </view>
+        <view class="source">
+        Power by 有道词典
+    </view>
+</view>

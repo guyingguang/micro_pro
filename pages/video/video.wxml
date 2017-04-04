@@ -1,0 +1,27 @@
+<view style="background-color:#4e5254;max-height:{{screenHieght}}px;overflow:hidden;">
+  <view class="viewV">
+    <video src="{{url}}" class="vdo" autoplay="{{networkType=='wifi'?true:flase}}" objectFit="cover"></video>
+  </view>
+  <view class="details">
+    <view class="title">
+      <text>小即是大，以色列为何赢得世界瞩目？</text>
+    </view>
+    <view class="speaker">
+      <text>刘家平、Benjamin Weiss、黄炜清</text>
+    </view>
+    <scroll-view class="content" scroll-y="true">
+      <text>
+小即是大，以色列为何赢得世界瞩目？
+
+巴菲特曾经说过：“如果你来中东是寻找石油，那么你可以忽略以色列。如果你是来寻找智慧，那么请聚焦于以色列！”翻开地图一看，以色列这个国土面积仅略大于北京的国家，竟吸引了包括李嘉诚、郭广昌、谷歌、微软等国内外具有指标性的资本争相占位，举世瞩目。
+
+其实道理并不复杂。只要我们耐心探索，就会发现对于以色列而言，小的只是其国土，少的只是其人口，但这些都没能阻挡它成为全球创新的前沿阵地。
+
+全球24%的诺贝尔奖获得者、高科技公司密度仅次于硅谷、研发支出占GDP比重世界第一等，种种标签都让以色列不仅收获了世界的掌声，也赢得了资本的青睐。从最新数据来看，2016年上半年，以色列高科技公司融资规模已达28亿美元，创下历史新高；同期，高科技投资的退出总额也达到了42亿美元，大部分来自跨国集团的收购。
+
+作为一个国门之内的投资者，在这个资本全球化的时代里，你是否愿意和宜信财富一起，深入发掘这个万里之外的“资本处女地”，布局这个举世公认的“科技创新之巅”？
+
+如果你已蠢蠢欲动，但仍想了解更多详情与内幕，敬请关注12月5日晚财富夜话，我们将特邀相关专家为你细细说来。</text>
+      </scroll-view>
+  </view>
+</view>

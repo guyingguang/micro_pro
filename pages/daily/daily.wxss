@@ -1,0 +1,36 @@
+
+.everydayImg
+{
+  width:100%;
+}
+.everyDayEng
+{
+  margin: 10px 5px;
+  font-size: 12pt;
+  line-height: 23px;
+}
+.everyDayChn
+{
+  margin: 10px 5px;
+  font-size: 10pt;
+  line-height: 20px;
+  color:#a4a4a4;
+}
+.audioImg
+{
+  width:15px;
+  height:15px;
+  vertical-align:middle;
+}
+
+
+.source
+{
+  font-size: 10pt;
+  margin-top:10px;
+  position: fixed;
+  right:0;
+  bottom:10px; 
+  margin-right: 10px;
+  color:#a4a4a4;
+}

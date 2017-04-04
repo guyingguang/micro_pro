@@ -1,0 +1,17 @@
+<view class="transPage">
+
+    <view class="everyday">
+        <image class="everydayImg" src="{{everyday.picture2}}"></image>
+        <view style="color:#cecece;font-size:12pt;margin:5px;">每日一句</view>
+        <view class="everyDayEng">
+        {{everyday.content}} <image class="audioImg" bindtap="playAudio" src="../../images/audio.png"></image>
+        <audio src="{{everyday.tts}}" id="myAudio"></audio>
+        </view>
+        <view class="everyDayChn">
+            {{everyday.note}}
+        </view>
+    </view>
+    <view class="source">
+        Power by 金山词霸
+    </view>
+</view>

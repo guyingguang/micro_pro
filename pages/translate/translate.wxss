@@ -1,0 +1,115 @@
+/**translate.wxss**/
+.transPage
+{
+  overflow-x:hidden;
+}
+.sectionText 
+{
+  width:100%;
+  height:50px;
+  border-bottom:1px solid #cecece;
+  padding-left:18rpx;
+  position:fixed;
+  top:0px;
+  background-color: #fff;font-size: 14pt;
+}
+.input-text
+{
+  height:40px;
+  font-size: 11pt;
+  width:70%;
+  border-bottom: 1px solid #09bb07;
+  padding-left: 5px;
+  float:left;
+}
+.btn-S
+{
+  margin-top: 10px;
+  margin-right: 18px;
+  float:right;
+  color:#09bb07;
+}
+.history
+{
+  position:fixed;
+  width:100%;
+  height:90%;
+  z-index:9;
+  margin-top: 51px;
+  background-color: #fff;
+}
+.historyDetails
+{
+  height:50px;
+  line-height: 50px;
+  margin:0px 20px;
+  border-bottom:1px solid #cecece;
+}
+.heistoryEng
+{
+  margin-right:10px;
+  font-size: 11pt;
+}
+.heistoryChn
+{
+  color:#cecece;
+  font-size: 10pt;
+}
+.historyCancel
+{
+  float:right;margin-top: 5px;
+}
+.descV
+{
+  margin-top: 80px;
+}
+.section_basic
+{
+  margin-top:10px;
+  margin-left: 25rpx;
+  margin-bottom:10px;
+  margin-right:25rpx;
+  border-bottom:1px dashed #cecece;
+  height:auto;
+}
+.phonetic
+{
+  margin-bottom: 10px;
+}
+.explains
+{
+  margin: 10px 0px;
+  font-size: 11pt;
+}
+.web_explains
+{
+  margin: 10px 10px;
+  font-size: 11pt;
+}
+.web_content_value
+{
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 10pt;
+}
+
+.source
+{
+  font-size: 10pt;
+  margin-top:10px;
+  position: fixed;
+  right:0;
+  bottom:10px; 
+  margin-right: 10px;
+  color:#a4a4a4;
+}
+.closeHis
+{
+  font-size: 10pt;
+  margin-top:10px;
+  position: fixed;
+  left:0;
+  bottom:10px; 
+  margin-left: 10px;
+  color:#a4a4a4;
+}

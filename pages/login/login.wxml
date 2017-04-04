@@ -1,0 +1,58 @@
+<!-- login.wxml -->
+<view class="section section_gap">
+  <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+    <view id="green" class="scroll-view-item_H bc_green">banner</view>
+  </scroll-view>
+</view>
+<view class="history-list">
+  <view class="history" data-value="76" bindtap="toHistory">
+    <view class="imgV">
+      <image src="../../images/yehua.png"></image>
+    </view>
+     <view class="detailsV">
+     <view class="prieod">第七十六期</view>
+     <view class="title">小即是大，以色列为何赢得世界瞩目？</view>
+     <view class="speaker">刘家平、Benjamin Weiss、黄炜清</view>
+     </view>
+  </view>
+  <view class="history" data-value="75" bindtap="toHistory">
+    <view class="imgV">
+      <image src="../../images/yehua.png"></image>
+    </view>
+     <view class="detailsV">
+     <view class="prieod">第七十六期</view>
+     <view class="title">小即是大，以色列为何赢得世界瞩目？</view>
+     <view class="speaker">刘家平、Benjamin Weiss、黄炜清</view>
+     </view>
+  </view>
+  <view class="history" data-value="74" bindtap="toHistory">
+    <view class="imgV">
+      <image src="../../images/yehua.png"></image>
+    </view>
+     <view class="detailsV">
+     <view class="prieod">第七十六期</view>
+     <view class="title">小即是大，以色列为何赢得世界瞩目？</view>
+     <view class="speaker">刘家平、Benjamin Weiss、黄炜清</view>
+     </view>
+  </view>
+  <view class="history" data-value="73" bindtap="toHistory">
+    <view class="imgV">
+      <image src="../../images/yehua.png"></image>
+    </view>
+     <view class="detailsV">
+     <view class="prieod">第七十六期</view>
+     <view class="title">小即是大，以色列为何赢得世界瞩目？</view>
+     <view class="speaker">刘家平、Benjamin Weiss、黄炜清</view>
+     </view>
+  </view>
+  <view class="history" data-value="73" bindtap="toHistory">
+    <view class="imgV">
+      <image src="../../images/yehua.png"></image>
+    </view>
+     <view class="detailsV">
+     <view class="prieod">第七十六期</view>
+     <view class="title">小即是大，以色列为何赢得世界瞩目？</view>
+     <view class="speaker">刘家平、Benjamin Weiss、黄炜清</view>
+     </view>
+  </view>
+</view>
