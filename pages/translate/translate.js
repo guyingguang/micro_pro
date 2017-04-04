@@ -75,7 +75,7 @@ Page({
   onShareAppMessage: function () {
     return {
       title: '微工具pro',
-      path: '/pages/translate/translate',
+      path: '/pages/daily/daily',
       success: function(res) {},
       fail: function(res) {}
     }

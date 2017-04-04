@@ -1,7 +1,7 @@
 <view class="transPage">
 
     <view class="everyday">
-        <image class="everydayImg" src="{{everyday.picture2}}"></image>
+        <image class="everydayImg" data-priviewimg="{{everyday.picture2}}" src="{{everyday.picture}}" bindtap="previewImage"></image>
         <view style="color:#cecece;font-size:12pt;margin:5px;">每日一句</view>
         <view class="everyDayEng">
         {{everyday.content}} <image class="audioImg" bindtap="playAudio" src="../../images/audio.png"></image>
