@@ -1,19 +1,15 @@
 //daily.js
-
-var util = require('../../utils/util.js')
 var app = getApp()
 Page({
   data: {
     everyday:{},
   },
-
   onLoad: function () {
-
     var that = this;
     wx.request({
         url: "https://open.iciba.com/dsapi",
         method: 'GET', 
-        success: function(res){console.log(res.data);that.setData({everyday:res.data})},
+        success: function(res){that.setData({everyday:res.data})},
         fail: function() {},
         complete: function() {}
     }) 
@@ -24,25 +20,17 @@ Page({
     this.audioCtx = wx.createAudioContext('myAudio')
   },
   previewImage:function(e){
-    console.log(e);
-    console.log(e.target.dataset.priviewimg);
     var priview=[];
     priview.push(e.target.dataset.priviewimg);
-    console.log(priview);
-    wx.previewImage({
-      current: '', // 当前显示图片的http链接
-      urls: priview // 需要预览的图片http链接列表
-    })
+    wx.previewImage({current: '',urls: priview})
   },
-
-  playAudio:function(e){this.audioCtx.play();},
-
   onShareAppMessage: function () {
     return {
-      title: '微工具pro',
+      title: '微工具pro—每日一句',
       path: '/pages/daily/daily',
       success: function(res) {},
       fail: function(res) {}
     }
-  }
+  },
+  playAudio:function(e){this.audioCtx.play();}
 })

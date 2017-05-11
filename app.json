@@ -3,14 +3,14 @@
     "pages/daily/daily",
     "pages/translate/translate",
     "pages/login/login",
-    "pages/video/video",
     "pages/index/index",
+    "pages/video/video",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "每日一句",
+    "navigationBarTitleText": "微工具pro",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {

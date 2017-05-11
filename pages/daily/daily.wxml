@@ -11,7 +11,7 @@
             {{everyday.note}}
         </view>
     </view>
-    <view class="source">
+    <view class="source" bindtap="showShare">
         Power by 金山词霸
     </view>
 </view>

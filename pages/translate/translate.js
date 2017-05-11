@@ -67,15 +67,13 @@ Page({
   closeHis:function(){
     this.setData({
       'columnShow.show':false,
-      everydayShow:true,
-      powerName:'金山词霸'
     })
   },
 
   onShareAppMessage: function () {
     return {
-      title: '微工具pro',
-      path: '/pages/daily/daily',
+      title: '微工具pro—词典',
+      path: '/pages/translate/translate',
       success: function(res) {},
       fail: function(res) {}
     }
